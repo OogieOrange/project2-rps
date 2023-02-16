@@ -8,6 +8,11 @@ body {
     text-align: center;
 }
 
+p {
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
 /* Heading */
 
 h1 {
@@ -39,6 +44,10 @@ h1 {
 }
 
 /* Choice buttons */
+
+.button-box {
+    height: 15rem;
+}
 
 .btn-size {
     height: 8rem;
