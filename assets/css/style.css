@@ -90,3 +90,10 @@ h1 {
     background: url(../images/scissors.jpg) no-repeat center center;
     background-size: 100%;
 }
+
+/* Scores */
+
+.score-box p {
+    display: inline;
+    margin: 0 1rem;
+}
