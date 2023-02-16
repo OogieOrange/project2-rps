@@ -97,3 +97,20 @@ h1 {
     display: inline;
     margin: 0 1rem;
 }
+
+/* Restart button */
+
+.restart-btn {
+    height: 4rem;
+    width: 10rem;
+    font-size: 110%;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 2rem;
+    background-color: #f8f3c6;
+}
+
+.restart-btn:hover {
+    color: #e3170a;
+    border: 4px solid #b4150a;
+}
