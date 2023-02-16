@@ -1,1 +1,28 @@
+/* Global style */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand&display=swap');
+
+body {
+    background-color: #fcf6b1;
+    font-family: "Quicksand", sans-serif;
+    color: #30404f;
+    text-align: center;
+}
+
+/* Heading */
+
+h1 {
+    font-family: "Fredoka One", sans-serif;
+    font-size: 280%;
+}
+
+.red {
+    color: #e3170a;
+}
+
+.light-blue {
+    color: #82c696;
+}
+
+.orange {
+    color: #f7b32b;
+}
