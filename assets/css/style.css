@@ -118,6 +118,16 @@ h1 {
 
 /* Media queries */
 
+/* For screens over 1300*/
+
+@media screen and (min-width: 1300px) {
+
+    /* Game container */
+    .game-box {
+        width: 60rem;
+    }
+}
+
 /* For screens under 800*/
 
 @media screen and (max-width: 800px) {
@@ -154,9 +164,9 @@ h1 {
     }
 }
 
-/* For screens under 410*/
+/* For screens under 430*/
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 430px) {
 
     /* Game container */
     .game-box {
