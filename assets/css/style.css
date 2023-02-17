@@ -46,7 +46,7 @@ h1 {
 
 /* Choice buttons */
 
-.button-box {
+#button-box {
     height: 15rem;
 }
 
@@ -149,7 +149,7 @@ h1 {
     }
 
     /* Choice buttons */
-    .button-box {
+    #button-box {
         height: 28rem;
     }
 
@@ -174,7 +174,7 @@ h1 {
     }
 
     /* Choice buttons */
-    .button-box {
+    #button-box {
         height: 22rem;
     }
 
