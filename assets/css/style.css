@@ -38,7 +38,7 @@ h1 {
 .game-box {
     background-color: #fff6e4;
     width: 75%;
-    height: 32rem;
+    height: 36rem;
     margin: 0 auto;
     border-radius: 1rem;
     border: 2px solid #30404f;
@@ -91,11 +91,31 @@ h1 {
     background-size: 100%;
 }
 
+/* Results */
+
+.results h2 {
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 /* Scores */
+.score-box {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    border: 2px solid #30404f;
+    border-radius: 1rem;
+}
 
 .score-box p {
     display: inline;
     margin: 0 1rem;
+}
+
+.score-box span {
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 400;
 }
 
 /* Restart button */
@@ -145,7 +165,7 @@ h1 {
 
     /* Game container */
     .game-box {
-        height: 48rem;
+        height: 54rem;
     }
 
     /* Choice buttons */
@@ -170,7 +190,7 @@ h1 {
 
     /* Game container */
     .game-box {
-        height: 42rem;
+        height: 48rem;
     }
 
     /* Choice buttons */
