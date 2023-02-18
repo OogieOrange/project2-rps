@@ -1,5 +1,17 @@
-let button = document.getElementById("button-box");
-let playChoice = button.getAttribute("data-type");
+const result = document.getElementById("result");
+const resultAnswer = document.getElementById("result-answer");
+const choiceBtn = document.getElementsByTagName("button");
+let userWin = parseInt(document.getElementById("win"));
+let userLoss = parseInt(document.getElementById("loss"));
+let userChoice;
+
+for (let choice of choiceBtn) {
+    choice.addEventListener("click", function (event) {
+        userChoice = event.target.id;
+        result.innerHTML = `${userChoice} vs. ${compChoices()}`;
+        resultAnswer.innerHTML = `${winner()}`
+    });
+}
 
 function compChoices() {
     let compChoice = Math.floor(Math.random() * 3) + 1;
@@ -13,22 +25,25 @@ function compChoices() {
 }
 
 function winner() {
-    let copmuter = compChoices();
-    let result = playChoice + computer;
+    let win = userChoice + compChoices();
 
-    if (playChoice === computer) {
-        compMove.textContent = `${computer}. It's a draw.`;
-    } else if (
-        result = "rockscissors" ||
-        result = "paperrock" ||
-        result = "scissorspaper"
+    if (
+        win === "rockrock" ||
+        win === "paperpaper" ||
+        win === "scissorsscissors"
     ) {
-        compMove.textContent = `${computer}. Congrats! You won!`;
+        return "It's a draw.";
     } else if (
-        result = "rockspaper" ||
-        result = "paperscissors" ||
-        result = "scissorsrock"
+        win === "rockscissors" ||
+        win === "paperrock" ||
+        win === "scissorspaper"
     ) {
-        compMove.textContent = `${computer}... Sorry. You Lost.`;
+        return "Congrats! You win!";
+    } else if (
+        win === "rockpaper" ||
+        win === "paperscissors" ||
+        win === "scissorsrock"
+    ) {
+        return "Sorry. You Lose.";
     }
 }

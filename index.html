@@ -21,14 +21,15 @@
 
     <div class="game-box">
         <div id="button-box">
-            <button data-type="rock" class="btn-size btn-bord btn-margin rock" aria-label="Rock hand sign"></button>
-            <button data-type="paper" class="btn-size btn-bord btn-margin paper" aria-label="Paper hand sign"></button>
-            <button data-type="scissors" class="btn-size btn-bord btn-margin scissors"
+            <button id="rock" class="btn-size btn-bord btn-margin rock" aria-label="Rock hand sign"></button>
+            <button id="paper" class="btn-size btn-bord btn-margin paper" aria-label="Paper hand sign"></button>
+            <button id="scissors" class="btn-size btn-bord btn-margin scissors"
                 aria-label="Scissors hand sign"></button>
         </div>
         <div class="results">
-            <p>Computer chose:</p>
-            <p><span id="computer-move" class="computer">...</span></p>
+            <p>Who won?</p>
+            <p><span id="result" class="computer">...</span></p>
+            <p><span id="result-answer" class="computer">...</span></p>
         </div>
         <div class="score-box">
             <p>Your score: <span class="win">0</span></p>
