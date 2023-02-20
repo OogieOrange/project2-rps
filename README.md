@@ -9,7 +9,6 @@ Rock, paper, scissors is a basic webpage displaying a playable version of the ga
 <br>
 
 ## Features
-
 ---
 
 ### Header
@@ -67,3 +66,50 @@ Resets the tally scores. So the user can choose to start over.
 The wireframe for the webpage. Certain other elements were added when coding the page.
 
 <img src="assets/readme-images/wireframe-rps.jpg" alt="Image showing wireframe">
+
+<br>
+
+## Technology
+---
+
+- HTML5
+- CSS3
+- JavaScript
+- [Google Fonts](https://fonts.google.com/), <br> Was used to import the 'Fredoka One' and 'Quicksand' font familys into the connected css stylesheet.
+- [Am I Responsive](https://ui.dev/amiresponsive), <br> Was used for checking responsiveness.
+- [ClipStudios], <br> Was used to create the wireframe.
+- Git, <br> Was used to commit through Gitpod repository and push code to GitHub.
+- [GitHub](https://github.com/), <br> Was used to facilitate my project and to deploy it.
+- [W3C Validator](https://validator.w3.org/#validate_by_uri), [W3C jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) and [JSHint](https://jshint.com/), <br> Was used to validate all the code.
+
+<br>
+
+## Testing
+---
+
+
+
+<br>
+
+## Suported Browsers
+---
+
+
+
+<br>
+
+## Deployment
+---
+
+<br>
+
+- Open GitHub repository and open the settings tab
+- From settings navigate to pages tab
+- Under branch, select the main branch through the dropdown menu
+- Once selected and saved, the page will be refreshed (in case of nothing happening wait for a couple muinites and refresh page manually)
+- The refreshed page will show a detailed ribbon containing the website link and indicate a successful deployment.
+
+<br>
+
+## Credits
+---
