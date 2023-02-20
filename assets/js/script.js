@@ -19,8 +19,8 @@ for (let choice of choiceBtn) {
             document.getElementById("win").innerText = 0;
             document.getElementById("loss").innerText = 0;
         } else {
-            result.innerHTML = `${userChoice} vs. ${compChoices()}`;
-            resultAnswer.innerHTML = `${winner()}`
+            result.innerHTML = `${userChoice} vs. ${compChoice()}`;
+            resultAnswer.innerHTML = `${decidedWinner()}`
         }
     });
 }
@@ -46,26 +46,20 @@ function compChoices() {
  * Concludes who wins and increments the score to 
  * corresponding tally
  */
-function winner() {
+function decidedWinner() {
     let win = userChoice + computer;
 
     if (
-        win === "rockrock" ||
-        win === "paperpaper" ||
-        win === "scissorsscissors"
+        ["rockrock", "paperpaper", "scissorsscissors"].includes(win)
     ) {
         return "It's a draw.";
     } else if (
-        win === "rockscissors" ||
-        win === "paperrock" ||
-        win === "scissorspaper"
+        ["rockscissors", "paperrock", "scissorspaper"].includes(win)
     ) {
         document.getElementById("win").innerText = ++scoreWin
         return "Congrats! You win!";
     } else if (
-        win === "rockpaper" ||
-        win === "paperscissors" ||
-        win === "scissorsrock"
+        ["rockpaper", "paperscissors", "scissorsrock"].includes(win)
     ) {
         document.getElementById("loss").innerText = ++scoreLoss
         return "Sorry. You Lose.";

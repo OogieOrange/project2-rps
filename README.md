@@ -11,6 +11,8 @@ Rock, paper, scissors is a basic webpage displaying a playable version of the ga
 ## Features
 ---
 
+<br>
+
 ### Header
 
 Displays that the purpose of the webpage is the game with corresponding name.
@@ -71,6 +73,8 @@ The wireframe for the webpage. Certain other elements were added when coding the
 
 ## Technology
 ---
+
+<br>
 
 - HTML5
 - CSS3
