@@ -59,3 +59,11 @@ Resets the tally scores. So the user can choose to start over.
 <img src="assets/readme-images/reset.png" alt="Image showing reset button">
 
 <br>
+
+## Wireframe
+
+---
+
+The wireframe for the webpage. Certain other elements were added when coding the page.
+
+<img src="assets/readme-images/wireframe-rps.jpg" alt="Image showing wireframe">
