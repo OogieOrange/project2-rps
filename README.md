@@ -91,7 +91,37 @@ The wireframe for the webpage. Certain other elements were added when coding the
 ## Testing
 ---
 
+<br>
 
+### Function
+All buttons on the page have been tested and all hover styling have been tested and execute intended purpose.
+
+<br>
+
+### Validation
+The websites code has been tested and validated through W3C Validator, W3C jigsaw CSS validator, JSHint and LightHouse. The result is shown bellow through screenshots.
+
+### W3C Validator
+
+<img src="assets/readme-images/html-validation.png" alt="Image showing W3C Validator result">
+
+<br>
+
+### W3C jigsaw CSS validator
+
+<img src="assets/readme-images/css-validation.png" alt="Image showing W3C jigsaw CSS validator result">
+
+<br>
+
+### JSHint
+
+<img src="assets/readme-images/jshint.png" alt="Image showing JSHint result">
+
+<br>
+
+### Lighthouse
+
+<img src="assets/readme-images/lighthouse.png" alt="Image showing LightHouse result">
 
 <br>
 
