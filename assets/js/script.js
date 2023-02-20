@@ -16,10 +16,11 @@ for (let choice of choiceBtn) {
         if (userChoice === "reset") {
             result.innerHTML = "...";
             resultAnswer.innerHTML = "...";
-            document.getElementById("win").innerText = 0;
-            document.getElementById("loss").innerText = 0;
+            document.getElementById("win").innerText = scoreWin = 0;
+            document.getElementById("loss").innerText = scoreLoss = 0;
         } else {
-            result.innerHTML = `${userChoice} vs. ${compChoice()}`;
+            let computerChoice = compChoices();
+            result.innerHTML = `${userChoice} vs. ${computerChoice}`;
             resultAnswer.innerHTML = `${decidedWinner()}`
         }
     });
