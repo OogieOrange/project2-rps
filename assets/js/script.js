@@ -21,7 +21,7 @@ for (let choice of choiceBtn) {
         } else {
             let computerChoice = compChoices();
             result.innerHTML = `${userChoice} vs. ${computerChoice}`;
-            resultAnswer.innerHTML = `${decidedWinner()}`
+            resultAnswer.innerHTML = `${decidedWinner()}`;
         }
     });
 }
@@ -57,12 +57,12 @@ function decidedWinner() {
     } else if (
         ["rockscissors", "paperrock", "scissorspaper"].includes(win)
     ) {
-        document.getElementById("win").innerText = ++scoreWin
+        document.getElementById("win").innerText = ++scoreWin;
         return "Congrats! You win!";
     } else if (
         ["rockpaper", "paperscissors", "scissorsrock"].includes(win)
     ) {
-        document.getElementById("loss").innerText = ++scoreLoss
+        document.getElementById("loss").innerText = ++scoreLoss;
         return "Sorry. You Lose.";
     }
 }
