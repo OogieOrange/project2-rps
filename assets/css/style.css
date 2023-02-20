@@ -27,12 +27,10 @@ h2 {
 
 /* Heading */
 
-header h1 {}
-
 header div {
     width: 36rem;
     margin: 0 auto;
-    border-top: 10px dotted #30404f;
+    border-top: 2px solid #30404f;
     padding-bottom: 1rem;
 }
 
@@ -126,7 +124,7 @@ header div {
     margin: 0 auto;
     margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 6px dotted #30404f;
+    border-top: 2px solid #30404f;
 }
 
 .score-box p {
