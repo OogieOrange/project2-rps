@@ -2,7 +2,7 @@
 
 A perfect game to occupy ones atention when traveling or simply taking a quick break. 
 
-Rock, paper, scissors is a basic webpage displaying a playable version of the game by the same name. It registers the users choice and match it against a randomly generated oponents choice. The score of the user and computer is registered and the user can choose to continue playing indefinitely or to reset the score count. 
+Rock, paper, scissors is a basic webpage displaying a playable version of the game by the same name. It registers the users choice and match it against a randomly generated oponents choice. The score of the user and computer is recorded in a tally and the user can choose to continue playing indefinitely or to reset the score count. 
 
 <img src="assets/readme-images/responsive.png" alt="Image showing responsiveness">
 
@@ -129,6 +129,17 @@ The websites code has been tested and validated through W3C Validator, W3C jigsa
 ---
 
 
+
+<br>
+
+## Found and Fixed Bugs
+---
+
+<br>
+
+ When choosing to reset the game, the tally count would display 0-0 untill someone won a game. Now this is supposed to happen. But when the first new game was won, the tally for the winner would continue the count from the score preceding the reset.
+
+ This was fixed by simply adding the "scoreWin" and "scoreLoss" variables to the reset button respons. 
 
 <br>
 
