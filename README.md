@@ -8,7 +8,7 @@ Rock, paper, scissors is a basic webpage displaying a playable version of the ga
 
 <br>
 
-[LIVE SITE HERE](https://fonts.google.com/)
+[LIVE SITE HERE](https://oogieorange.github.io/project2-rps/)
 
 <br>
 
