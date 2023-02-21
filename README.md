@@ -66,7 +66,7 @@ Resets the tally scores. So the user can choose to start over.
 
 ## Wireframe
 
-The wireframe for the webpage. Certain other elements were added when coding the page.
+The wireframe for the webpage. Certain other elements were added when coding the page. This to either make it look more pleasing or to add another function to the page.
 
 <img src="assets/readme-images/wireframe-rps.jpg" alt="Image showing wireframe">
 
@@ -81,7 +81,7 @@ The wireframe for the webpage. Certain other elements were added when coding the
 - JavaScript
 - [Google Fonts](https://fonts.google.com/), <br> Was used to import the 'Fredoka One' and 'Quicksand' font familys into the connected css stylesheet.
 - [Am I Responsive](https://ui.dev/amiresponsive), <br> Was used for checking responsiveness.
-- [ClipStudios], <br> Was used to create the wireframe and ilustrating the images.
+- ClipStudios, <br> Was used to create the wireframe and illustrating the images.
 - Git, <br> Was used to commit through Gitpod repository and push code to GitHub.
 - [GitHub](https://github.com/), <br> Was used to facilitate my project and to deploy it.
 - [W3C Validator](https://validator.w3.org/#validate_by_uri), [W3C jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) and [JSHint](https://jshint.com/), <br> Was used to validate all the code.
@@ -93,7 +93,7 @@ The wireframe for the webpage. Certain other elements were added when coding the
 <br>
 
 ### Function
-All buttons on the page have been tested and all hover styling have been tested and execute intended purpose on laptop and desktop devices. 
+All buttons and hover styling on the page have been tested and execute intended purpose on laptop and desktop devices. 
 
 Hover styling is not implemented the same across mobile and tablet devices but this does not affect the usability of the page, as all buttons work as otherwise intended. It is more a question of consistant styling. This is adressed further down on the README, under future edits.
 
@@ -132,7 +132,7 @@ The websites code has been tested and validated through W3C Validator, W3C jigsa
 
 ### Chrome Dev Tools
 
-The webpage containes media queries and are responsive down to a screen width of 320px. Above a screen width of 1300px, the content will retain it's width of 60rem (at it's widest) and center itself on the screen.
+The webpage containes media queries and are responsive down to a screen width of 320px. Above a screen width of 1300px, the content will retain it's width of 60rem (at it's widest) and center itself (horizontally) on the screen.
 
 <br>
 
@@ -145,7 +145,7 @@ The webpage containes media queries and are responsive down to a screen width of
 ### Safari
 
 - MacBook Air 12"/13"
-- IPhone 11
+- IPhone 11/14
 
 <br>
 
@@ -170,6 +170,12 @@ The webpage containes media queries and are responsive down to a screen width of
  When choosing to reset the game, the tally count would display 0-0 untill someone won a game. Now this is supposed to happen. But when the first new game was won, the tally for the winner would continue the count from the score preceding the reset.
 
  This was fixed by simply adding the "scoreWin" and "scoreLoss" variables (the score counting variables) to the reset button respons. 
+
+ <br>
+
+ When making a final check on responsiveness, I found that between 429-431px the buttons shifted and made an akward space underneath them.
+
+ This was fixed by making the media querie respond to screen sizes smaller than 429px instead of the preavious one of 430px.
 
 <br>
 
