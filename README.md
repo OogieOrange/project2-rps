@@ -13,7 +13,6 @@ Rock, paper, scissors is a basic webpage displaying a playable version of the ga
 <br>
 
 ## Features
----
 
 <br>
 
@@ -67,8 +66,6 @@ Resets the tally scores. So the user can choose to start over.
 
 ## Wireframe
 
----
-
 The wireframe for the webpage. Certain other elements were added when coding the page.
 
 <img src="assets/readme-images/wireframe-rps.jpg" alt="Image showing wireframe">
@@ -76,7 +73,6 @@ The wireframe for the webpage. Certain other elements were added when coding the
 <br>
 
 ## Technology
----
 
 <br>
 
@@ -93,7 +89,6 @@ The wireframe for the webpage. Certain other elements were added when coding the
 <br>
 
 ## Testing
----
 
 <br>
 
@@ -132,7 +127,6 @@ The websites code has been tested and validated through W3C Validator, W3C jigsa
 <br>
 
 ## Browser Testing
----
 
 <br>
 
@@ -170,7 +164,6 @@ The webpage containes media queries and are responsive down to a screen width of
 <br> 
 
 ## Found and Fixed Bugs
----
 
 <br>
 
@@ -181,7 +174,6 @@ The webpage containes media queries and are responsive down to a screen width of
 <br>
 
 ## Future Edits
----
 
 <br>
 
@@ -192,9 +184,12 @@ On mobile and tablet devices, the hover function that is used on the websites bu
 <br>
 
 ## Deployment
----
 
 <br>
+
+### Github Pages
+
+The site was deployed through Github by the following steps,
 
 1. Open GitHub repository and open the settings tab
 2. From settings navigate to pages tab
@@ -204,8 +199,17 @@ On mobile and tablet devices, the hover function that is used on the websites bu
 
 <br>
 
+### Forking Repository
+
+Forking effectivily creates a copy of the repository on your own GitHub account. This to view or to make changes without affecting the original repository in any way. To do this follow the following steps,
+
+1. Locate the repository in question on GitHub.
+2. Scroll to the top of the reppository (if you're not already there), and locate the "Fork" button in the top right of the repository (not the top of the page).
+3. When clicked, you should recive a copy of the repository on your GitHub account.
+
+<br>
+
 ## Credits
----
 
 <br>
 
