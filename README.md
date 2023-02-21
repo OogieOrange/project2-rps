@@ -98,7 +98,9 @@ The wireframe for the webpage. Certain other elements were added when coding the
 <br>
 
 ### Function
-All buttons on the page have been tested and all hover styling have been tested and execute intended purpose.
+All buttons on the page have been tested and all hover styling have been tested and execute intended purpose on laptop and desktop devices. 
+
+Hover styling is not implemented the same across mobile and tablet devices but this does not affect the usability of the page, as all buttons work as otherwise intended. It is more a question of consistant styling. This is adressed further down on the README, under future edits.
 
 <br>
 
