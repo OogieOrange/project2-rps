@@ -85,7 +85,7 @@ The wireframe for the webpage. Certain other elements were added when coding the
 - JavaScript
 - [Google Fonts](https://fonts.google.com/), <br> Was used to import the 'Fredoka One' and 'Quicksand' font familys into the connected css stylesheet.
 - [Am I Responsive](https://ui.dev/amiresponsive), <br> Was used for checking responsiveness.
-- [ClipStudios], <br> Was used to create the wireframe.
+- [ClipStudios], <br> Was used to create the wireframe and ilustrating the images.
 - Git, <br> Was used to commit through Gitpod repository and push code to GitHub.
 - [GitHub](https://github.com/), <br> Was used to facilitate my project and to deploy it.
 - [W3C Validator](https://validator.w3.org/#validate_by_uri), [W3C jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) and [JSHint](https://jshint.com/), <br> Was used to validate all the code.
