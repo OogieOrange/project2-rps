@@ -178,6 +178,17 @@ The webpage containes media queries and are responsive down to a screen width of
 
 <br>
 
+## Future Edits
+---
+
+<br>
+
+In future the media queries will be changed to go from min-max instead of the reverse. And the use of max-width will be replaced with min-width, to ensure that the responsiveness is both more easily implemented an read. This will also be affected by future use of flexbox to simplify the code and queries.
+
+On mobile and tablet devices, the hover function that is used on the websites buttons aren't implemented the same as on laptop or desktop devices. This function will in the future be changed to act when a button is pressed, to ensure a more consistent presentation over all devices.
+
+<br>
+
 ## Deployment
 ---
 
@@ -193,3 +204,12 @@ The webpage containes media queries and are responsive down to a screen width of
 
 ## Credits
 ---
+
+<br>
+
+Credit for this project will be given to the following, for acompanied reasons:
+
+- [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/), For answering any query I had along the way.
+- The 'Love Maths' project, For giving me a better understanding of JavaScript and ideés on how to build the randomised computer response.
+- Oskar Johansson and Joakim Karlsson, For helping me through hints and support on queries I had through out the project.
+- My mentor, For helping me understand the code better and to simplify parts of my code in an understandable manner for my level of coding.
