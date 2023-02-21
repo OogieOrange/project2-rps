@@ -129,12 +129,43 @@ The websites code has been tested and validated through W3C Validator, W3C jigsa
 
 <br>
 
-## Suported Browsers
+## Browser Testing
 ---
 
+<br>
 
+### Chrome Dev Tools
+
+The webpage containes media queries and are responsive down to a screen width of 320px. Above a screen width of 1300px, the content will retain it's width of 60rem (at it's widest) and center itself on the screen.
 
 <br>
+
+### Modzilla Firefox
+
+- MacBook Air 12"
+
+<br>
+
+### Safari
+
+- MacBook Air 12"/13"
+- IPhone 11
+
+<br>
+
+### Chrome
+
+- Desktop
+- MacBook Air 12"/13"
+- IPhone 11
+
+<br>
+
+### Microsoft Edge
+
+- Desktop
+
+<br> 
 
 ## Found and Fixed Bugs
 ---
@@ -143,7 +174,7 @@ The websites code has been tested and validated through W3C Validator, W3C jigsa
 
  When choosing to reset the game, the tally count would display 0-0 untill someone won a game. Now this is supposed to happen. But when the first new game was won, the tally for the winner would continue the count from the score preceding the reset.
 
- This was fixed by simply adding the "scoreWin" and "scoreLoss" variables to the reset button respons. 
+ This was fixed by simply adding the "scoreWin" and "scoreLoss" variables (the score counting variables) to the reset button respons. 
 
 <br>
 
@@ -152,11 +183,11 @@ The websites code has been tested and validated through W3C Validator, W3C jigsa
 
 <br>
 
-- Open GitHub repository and open the settings tab
-- From settings navigate to pages tab
-- Under branch, select the main branch through the dropdown menu
-- Once selected and saved, the page will be refreshed (in case of nothing happening wait for a couple muinites and refresh page manually)
-- The refreshed page will show a detailed ribbon containing the website link and indicate a successful deployment.
+1. Open GitHub repository and open the settings tab
+2. From settings navigate to pages tab
+3. Under branch, select the main branch through the dropdown menu
+4. Once selected and saved, the page will be refreshed (in case of nothing happening wait for a couple minutes and refresh page manually)
+5. The refreshed page will show a detailed ribbon containing the website link and indicate a successful deployment.
 
 <br>
 
