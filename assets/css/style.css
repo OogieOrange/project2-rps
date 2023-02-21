@@ -218,9 +218,9 @@ header div {
     }
 }
 
-/* For screens under 430*/
+/* For screens under 429*/
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 429px) {
 
     /* Game container */
     .game-box {
